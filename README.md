@@ -1,6 +1,6 @@
 # npmtest-express-winston
 
-#### test coverage for  [express-winston (v2.3.0)](https://github.com/bithavoc/express-winston#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-express-winston.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-winston) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-winston.svg)](https://travis-ci.org/npmtest/node-npmtest-express-winston)
+#### basic test coverage for  [express-winston (v2.3.0)](https://github.com/bithavoc/express-winston#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-express-winston.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-winston) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-winston.svg)](https://travis-ci.org/npmtest/node-npmtest-express-winston)
 
 #### express.js middleware for flatiron/winston
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-express-winston/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-express-winston/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-express-winston/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-express-winston/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-express-winston/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-express-winston/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-express-winston/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-express-winston/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-express-winston/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-express-winston/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-express-winston/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-express-winston/build/coverage.html/index.html)
 
@@ -139,7 +139,8 @@
         "test-coverage": "mocha --require blanket --reporter html-cov > coverage.html || true",
         "test-travis": "mocha --require blanket --reporter travis-cov"
     },
-    "version": "2.3.0"
+    "version": "2.3.0",
+    "bin": {}
 }
 ```
 
